@@ -18,6 +18,20 @@ body {
     justify-content: center;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a:focus {
+    color: #0065FC;
+    text-decoration: overline #0065FC;
+}
+
+a:hover {
+    color: #0065FC;
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;
