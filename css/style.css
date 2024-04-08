@@ -18,12 +18,31 @@ body {
     justify-content: center;
 }
 
+/****** Header ***********/
+
+
+
 nav {
     display: flex;
+    width: 100%;
+    height: 79px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+nav img{
+    width: 61.09px;
+    height: 19px;
+    
+}
+nav a {
+    padding-left: 69px;
 }
 
-a:focus {
+nav a:focus {
     color: #0065FC;
     text-decoration: overline #0065FC;
 }
@@ -32,6 +51,9 @@ a:hover {
     color: #0065FC;
 }
 
+h2 {
+    font-size: 18px;
+}
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -135,6 +157,26 @@ a {
     margin-bottom: 5px;
 }
 
+/****** Footer ***********/
+footer {
+    display: flex;
+    flex-direction: row;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer li {
+    margin-bottom: 10px;
+}
+footer li:hover {
+    color: #0065FC;
+}
+.footer-block{
+    width: 445px;
+    height: 163px;
+    
+}
 
 
 
@@ -142,7 +184,13 @@ a {
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
+
+   
+
+
+
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -176,6 +224,48 @@ a {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 767.98px) (min-width: 320px) {
     /* ... */
+    nav {
+        flex-direction: column;
+
+        padding: 0;
+    }
+
+    .main-container{
+        padding: 0;
+    }
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 14px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+    }
+
+
 }
+
