@@ -52,7 +52,7 @@ a:hover {
   color: #0065fc;
 }
 
-h2 {
+.footer-section {
   font-size: 18px;
 }
 .main-container {
@@ -93,6 +93,14 @@ a {
 
 .neutral-star {
   color: var(--main-bg-color);
+}
+/****** Info-group ***********/
+
+.info-logements {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -184,6 +192,12 @@ footer li:hover {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media screen and (max-width: 1024px) {
+
+    .info-group {
+        padding: 20px;
+    }
+
+
   .hebergements-and-populaires {
     flex-direction: column;
   }
