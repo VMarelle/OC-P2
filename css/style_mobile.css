@@ -1,0 +1,145 @@
+/* Small devices (phones, less than 768px) */
+
+@media screen and (min-width: 320px) and (max-width: 767.98px) {
+  /* ... */
+
+  .search-button .fa-magnifying-glass {
+    display: inline-block;
+  }
+  .search-button span {
+    display: none;
+  }
+
+  .main-container {
+    padding: 0;
+  }
+
+  .fa-fw {
+    width: 1.3em;
+  }
+
+  header {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 5px;
+  }
+  nav a {
+    flex: 1 1 0;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  nav a:focus {
+    border-top: none;
+    border-bottom: solid #0065fc;
+  }
+
+  nav img {
+    width: 15vw;
+  }
+
+  nav > div {
+    width: 100%;
+    gap: 0;
+  }
+
+  .filter-bar {
+    display: flex;
+    width: 100%;
+    height: auto;
+    font-weight: 700;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .filter-bar > div {
+    flex-wrap: wrap;
+    gap: unset;
+    justify-content: space-between;
+  }
+  .filter {
+    font-size: 0.85em;
+    display: flex;
+    background: #ffffff;
+    border-radius: 25px;
+    padding: 12px 20px;
+    border: 2px solid #d9d9d9;
+    width: 33%;
+    margin-bottom: 5%;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .search-input {
+    font-size: revert;
+  }
+
+  .search-field {
+    width: 100%;
+  }
+
+  .hebergements-and-populaires {
+    flex-direction: column-reverse;
+    margin-top: 0;
+  }
+  .hebergements-and-populaires .populaires {
+    border-radius: 0;
+  }
+  .hebergements-and-populaires .hebergements {
+    background-color: white;
+  }
+  .hebergements {
+    width: 100%;
+  }
+  .hebergements-cards {
+    display: unset;
+  }
+  .hebergements-cards .card {
+    margin-top: 20px;
+  }
+  .populaires {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .populaires-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .populaires-cards a {
+    width: 100%;
+  }
+
+  .populaires-cards .card {
+    margin-top: 20px;
+  }
+
+  .populaires-cards .card-title {
+    font-size: 16px;
+  }
+
+  .populaires-cards .card-subtitle {
+    font-size: 14px;
+  }
+
+  .activites-cards {
+    display: unset;
+  }
+
+  .activites-cards .card {
+    height: 200px;
+    margin-top: 15px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .footer-block {
+    width: 100%;
+  }
+}
