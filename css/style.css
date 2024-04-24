@@ -119,20 +119,14 @@ a:hover {
 /* ---------------- SEARCH BAR------------------- */
 .info-logements {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
   align-items: center;
   gap: 10px;
 }
-.fa-info {
-  --fa-border: 1px;
-  --fa-border-color: silver;
-  --fa-border-padding: 0.2em;
-  --fa-border-radius: 50%;
-  --fa-border-margin-right: 5px;
+.info-logements img {
+  height: 1.5em;
 }
-.fa-fw {
-  width: 1.05em;
+.fa-stack {
+  width: 3em;
 }
 .fa-pull-left {
   margin-right: 5px;
