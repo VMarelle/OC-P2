@@ -3,6 +3,9 @@
 @media screen and (min-width: 320px) and (max-width: 767.98px) {
   /* ... */
 
+  .info-group {
+    padding: 20px;
+  }
   .search-button .fa-magnifying-glass {
     display: inline-block;
   }
@@ -37,14 +40,30 @@
     border-top: none;
     border-bottom: solid #0065fc;
   }
-
+  nav a:hover {
+    color: #0065fc;
+    border-bottom: solid #0065fc;
+    border-top: none;
+  }
   nav img {
-    width: 15vw;
+    height: 19px;
   }
 
   nav > div {
     width: 100%;
     gap: 0;
+  }
+
+  .search-button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+    height: 100%;
   }
 
   .filter-bar {

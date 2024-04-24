@@ -3,7 +3,7 @@
 
 @media screen and (max-width: 1024px) {
   .info-group {
-    padding: 20px;
+    padding: 0;
   }
   .filter {
     font-size: 0.9em;
